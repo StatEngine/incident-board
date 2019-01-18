@@ -1,0 +1,15 @@
+{
+  "name": "incident-board",
+  "version": "0.0.1",
+  "description": "Demo Webhook App",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
