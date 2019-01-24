@@ -11,3 +11,11 @@ node index.js
 
 Now visit http://localhost:3100
 
+
+# Deploying to Heroku
+```
+heroku create
+git push heroku master
+heroku ps:scale web=1
+heroku open
+```
